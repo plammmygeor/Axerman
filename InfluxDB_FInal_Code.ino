@@ -19,9 +19,9 @@
   #include <InfluxDbCloud.h>
   
   // WiFi AP SSID
-  #define WIFI_SSID "marto"
+  #define WIFI_SSID "Nikola05"
   // WiFi password
-  #define WIFI_PASSWORD "martin363"
+  #define WIFI_PASSWORD "plammy2005"
   
   #define INFLUXDB_URL "http://192.168.43.55:8086"
   #define INFLUXDB_TOKEN "IY6L0MlrPbV22NMtZfvCGCSQbft4jMC5MEcyRdidy7iaKx5Kl82qRSbyPAJKAy44PuHvJmvNf5PhAUZC63uNNQ=="
@@ -133,8 +133,8 @@ void loop()
     Serial.println(client.getLastErrorMessage());
   }
 
-  Serial.println("Wait 10s");
-  delay(10000);
+  Serial.println("Wait 1s");
+  delay(1000);
 
   if (batValue == HIGH) 
   {
